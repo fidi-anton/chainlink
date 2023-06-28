@@ -4,7 +4,7 @@ body {
 
 .root {
   display: flex;
-  width: 650px;
+  width: 750px;
   min-height: 50px;
   flex-wrap: wrap;
 }
@@ -19,7 +19,7 @@ body {
   margin-right: 30px;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 300px;
   margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -63,4 +63,5 @@ body {
 .imagePrice {
   flex: 1;
   text-align: right;
+  white-space: nowrap;
 }

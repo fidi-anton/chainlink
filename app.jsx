@@ -110,7 +110,7 @@ const App = () => {
         {Object.entries(nftPrices).map(([nft, price]) => (
           <div key={nft} className={styles.module}>
             <img className={styles.image} src={images[nft]} />
-            <div className={styles.imagePrice}>Floor price: {dollarUSLocale.format(price)}</div>
+            <div className={styles.imagePrice}>Floor price: {dollarUSLocale.format(price).replace('$', 'ETH ')}</div>
           </div>
         ))}
         </>
